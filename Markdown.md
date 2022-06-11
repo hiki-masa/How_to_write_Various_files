@@ -141,7 +141,7 @@ $\tan(\theta) = \dfrac{\sin(\theta)}{\cos(\theta)}$<br>
 ```
 ![代替テキスト](URL)
 ```
-![画像](無題.png)
+![画像](icon_image.png)
 </details>
 <br><br>
 
