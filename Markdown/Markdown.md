@@ -2,9 +2,9 @@
 
 拡張子：.md<br>
 半角空白2つで改行
-<br><br>
+<br>
 
-# 見出し（タイトル）
+## 見出し（タイトル）
 <details>
 <summary>詳細</summary>
 
@@ -17,9 +17,9 @@
 ###### レベル6見出し
 ```
 </details>
-<br><br>
+<br>
 
-# 太字・斜体・訂正線
+## 太字・斜体・訂正線
 <details>
 
 ```
@@ -32,9 +32,9 @@
 *斜体*<br>
 ~~訂正線~~<br>
 </details>
-<br><br>
+<br>
 
-# テキストカラー
+## テキストカラー
 <details>
 
 ```
@@ -43,18 +43,18 @@
 【表示例】<br>
 <span style = "color : red;">赤文字</span>
 </details>
-<br><br>
+<br>
 
-# コメントアウト
+## コメントアウト
 <details>
 
 ```
 <!-- テキスト -->
 ```
 </details>
-<br><br>
+<br>
 
-# 箇条書きリスト
+## 箇条書きリスト
 <details>
 
 ```
@@ -65,10 +65,11 @@
 - リスト2
   - サブリスト2.1
 </details>
-<br><br>
+<br>
 
-# 番号付きリスト
+## 番号付きリスト
 <details>
+
 ```
 1. 番号リスト
 ```
@@ -76,9 +77,9 @@
 1. 番号リスト1
 2. 番号リスト2
 </details>
-<br><br>
+<br>
 
-# テーブル
+## テーブル
 <details>
 
 ```html
@@ -88,8 +89,8 @@
     <th>th</th>
   </tr>
   <tr>
-    <th>td</th>
-    <th>td</th>
+    <td>td</td>
+    <td>td</td>
   </tr>
 </table>
 ```
@@ -101,22 +102,22 @@
     <th>address</th>
   </tr>
   <tr>
-    <th>田中</th>
-    <th>20</th>
-    <th>東京</th>
+    <td>田中</td>
+    <td>20</td>
+    <td>東京</td>
   </tr>
   <tr>
-    <th>斎藤</th>
-    <th>25</th>
-    <th>大阪</th>
+    <td>斎藤</td>
+    <td>25</td>
+    <td>大阪</td>
   </tr>
 </table>
 
 [テーブルの詳細について](https://www.sejuku.net/blog/49377)
 </details>
-<br><br>
+<br>
 
-# 数式
+## 数式
 <details>
 
 $x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}$<br>
@@ -124,18 +125,20 @@ $x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}$<br>
 $\tan(\theta) = \dfrac{\sin(\theta)}{\cos(\theta)}$<br>
 [数式の詳細について](https://hwb.ecc.u-tokyo.ac.jp/wp/applications-2/latex/math)
 </details>
-<br><br>
+<br>
 
-# URLリンク
+## URLリンク
 <details>
 
 ```
 [表示テキスト](URL)
 ```
+【表示例】<br>
+[Google](https://google.com)
 </details>
-<br><br>
+<br>
 
-# ファイルの挿入
+## ファイルの挿入
 <details>
 
 ```
@@ -143,9 +146,9 @@ $\tan(\theta) = \dfrac{\sin(\theta)}{\cos(\theta)}$<br>
 ```
 ![画像](icon_image.png)
 </details>
-<br><br>
+<br>
 
-# 水平線
+## 水平線
 <details>
 
 ---
