@@ -1,10 +1,24 @@
 # Markdown記法
 
 拡張子：.md<br>
-半角空白2つで改行
+半角空白2つで改行，`<br>`でも改行可能
+
+## 目次
+- [見出し](#見出し)
+- [太字・斜体・訂正線](#太字・斜体・訂正線)
+- [テキストカラー](#テキストカラー)
+- [コメントアウト](#コメントアウト)
+- [箇条書きリスト](#箇条書きリスト)
+- [番号付きリスト](#番号付きリスト)
+- [テーブル](#テーブル)
+- [コード](#コード)
+- [数式](#数式)
+- [URLリンク](#URLリンク)
+- [ファイルの挿入](#ファイルの挿入)
+- [水平線](#水平線)
 <br>
 
-## 見出し（タイトル）
+## 見出し
 <details>
 <summary>詳細</summary>
 
@@ -38,10 +52,10 @@
 <details>
 
 ```
-<span style = "color : red;">赤文字</span>
+<span style="color: red;">赤文字</span>
 ```
 【表示例】<br>
-<span style = "color : red;">赤文字</span>
+<span style="color: red;">赤文字</span>
 </details>
 <br>
 
@@ -69,56 +83,57 @@
 
 ## 番号付きリスト
 <details>
+番号を統一することで，リスト要素の順番の変更が簡単になる
 
 ```
-1. 番号リスト
+1. リスト1
+1. リスト2
+    1. サブリスト1
 ```
 【表示例】<br>
-1. 番号リスト1
-2. 番号リスト2
+1. リスト1
+1. リスト2
+    1. サブリスト1
 </details>
 <br>
 
 ## テーブル
 <details>
 
-```html
-<table border>
-  <tr>
-    <th>th</th>
-    <th>th</th>
-  </tr>
-  <tr>
-    <td>td</td>
-    <td>td</td>
-  </tr>
-</table>
+```
+|名前|年齢|住所|
+|--|--|--|
+|田中|20|東京|
+|斎藤|25|大阪|
 ```
 【表示例】<br>
-<table border>
-  <tr>
-    <th>name</th>
-    <th>age</th>
-    <th>address</th>
-  </tr>
-  <tr>
-    <td>田中</td>
-    <td>20</td>
-    <td>東京</td>
-  </tr>
-  <tr>
-    <td>斎藤</td>
-    <td>25</td>
-    <td>大阪</td>
-  </tr>
-</table>
+|名前|年齢|住所|
+|--|--|--|
+|田中|20|東京|
+|斎藤|25|大阪|
 
 [テーブルの詳細について](https://www.sejuku.net/blog/49377)
 </details>
 <br>
 
+## コード
+<details>
+
+```python
+print("Hello World")
+```
+</details>
+<br>
+
+
 ## 数式
 <details>
+
+```
+$x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}$
+
+$\tan(\theta) = \dfrac{\sin(\theta)}{\cos(\theta)}$
+```
 
 $x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}$<br>
 <br>
@@ -150,6 +165,10 @@ $\tan(\theta) = \dfrac{\sin(\theta)}{\cos(\theta)}$<br>
 
 ## 水平線
 <details>
+
+```
+---
+```
 
 ---
 </details>
